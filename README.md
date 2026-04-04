@@ -9,13 +9,20 @@ We can divide the work: In main/
 
 - board/
 - game/ (Brian)
-- level/ (Brian)
+- level/ (Brian) - DONE
 - npc/
-- points/ (Brian)
+- points/ (Brian) - DONE
 - sprite/
 - ui/ (Brian + Harsh)
 
 
 # Tests Already Implemented
 
-- tests/level/PlayerTest (Brian)
+Brian:
+- tests/level/PlayerTest 
+- tests/level/LevelFactoryTest 
+- tests/level/LevelTest
+- tests/level/MapParserTest
+- tests/level/PelletTest
+- tests/level/PlayerCollisionTest
+- tests/points/DefaultPointCalculatorTest
