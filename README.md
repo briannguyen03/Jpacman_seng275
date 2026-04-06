@@ -8,11 +8,11 @@ So there are 3 main folders
 We can divide the work: In main/
 
 - board/ (Harsh) - DONE
-- game/ (Brian)
+- game/ (Brian) - DONE
 - level/ (Brian) - DONE
 - npc/ (Harsh) - DONE
 - points/ (Brian) - DONE
-- sprite/
+- sprite/ (Harsh)
 - ui/ (Brian + Harsh)
 
 
@@ -46,7 +46,7 @@ Harsh:
 - test/LauncherSmokeTest.java
 
 # Testing Reports
-testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
+Testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
 
 - **src/test/resources/reports**
 
