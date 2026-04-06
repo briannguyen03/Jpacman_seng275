@@ -13,7 +13,7 @@ import java.util.List;
  * A useful method for retrieving ghosts from your map would be:
  * findUnitInBoard in the Navigation class.
  */
-public final class GhostMapParser extends MapParser {
+public class GhostMapParser extends MapParser {
     private final GhostFactory ghostFactory;
 
     /**
@@ -37,8 +37,14 @@ public final class GhostMapParser extends MapParser {
     protected void addSquare(Square[][] grid, List<Ghost> ghosts,
                              List<Square> startPositions, int x, int y, char c) {
         switch (c) {
+            case 'B':
+                grid[x][y] = makeGhostSquare(ghosts, ghostFactory.createBlinky());
+                break;
             case 'C':
                 grid[x][y] = makeGhostSquare(ghosts, ghostFactory.createClyde());
+                break;
+            case 'I':
+                grid[x][y] = makeGhostSquare(ghosts, ghostFactory.createInky());
                 break;
             default:
                 super.addSquare(grid, ghosts, startPositions, x, y, c);
