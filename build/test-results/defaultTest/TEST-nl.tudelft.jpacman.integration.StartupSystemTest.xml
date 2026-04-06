@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="nl.tudelft.jpacman.integration.StartupSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-01T03:07:35" hostname="w134-87-157-117.wireless.uvic.ca" time="0.076">
-  <properties/>
-  <testcase name="gameIsRunning()" classname="nl.tudelft.jpacman.integration.StartupSystemTest" time="0.076"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
