@@ -44,3 +44,8 @@ Harsh:
 - test/npc/ghost/GhostTest.java
 - test/npc/ghost/GhostFactoryTest.java
 - test/LauncherSmokeTest.java
+
+# Testing Reports
+testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
+
+- **src/test/resources/reports**
