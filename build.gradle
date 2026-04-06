@@ -48,6 +48,7 @@ dependencies {
     testImplementation("org.mockito:mockito-core:$mockitoVersion")
     testImplementation("org.assertj:assertj-core:$assertjVersion")
     compileOnly("com.github.spotbugs:spotbugs-annotations:$spotbugsAnnotationsVersion")
+    testImplementation 'net.jqwik:jqwik:1.7.3'
 }
 
 task defaultTest(type: Test) {
