@@ -49,3 +49,5 @@ Harsh:
 testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
 
 - **src/test/resources/reports**
+
+**Note they are just static webpages so no stacktrace is available**
