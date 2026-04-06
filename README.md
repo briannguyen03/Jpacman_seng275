@@ -26,3 +26,9 @@ Brian:
 - tests/level/PelletTest
 - tests/level/PlayerCollisionTest
 - tests/points/DefaultPointCalculatorTest
+- test/game/GameTest
+- test/game/SinglePlayerGameTest
+- test/game/GameFactoryTest
+- test/ui/ScorePanelTest
+- test/ui/PacManUiBuilderTest
+- test/ui/PacManUiTest
