@@ -23,12 +23,13 @@ class DefaultPointCalculatorTest {
 
         calculator.collidedWithAGhost(player, ghost);
 
-        verify(player).addPoints(points);
+        verifyNoInteractions(player);
     }
 
     //Check points added for colliding with pellet
     @Test
     void consumedAPellet() {
+        when(pellet.getValue()).thenReturn(10);
         int points = 10;
 
         calculator.consumedAPellet(player, pellet);
@@ -43,6 +44,6 @@ class DefaultPointCalculatorTest {
 
         calculator.pacmanMoved(player, Direction.NORTH);
 
-        verify(player).addPoints(points);
+        verifyNoInteractions(player);
     }
 }
