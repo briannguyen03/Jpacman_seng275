@@ -7,10 +7,10 @@ So there are 3 main folders
 
 We can divide the work: In main/
 
-- board/
+- board/ (Harsh) - DONE
 - game/ (Brian)
 - level/ (Brian) - DONE
-- npc/
+- npc/ (Harsh) - DONE
 - points/ (Brian) - DONE
 - sprite/
 - ui/ (Brian + Harsh)
@@ -32,3 +32,15 @@ Brian:
 - test/ui/ScorePanelTest
 - test/ui/PacManUiBuilderTest
 - test/ui/PacManUiTest
+
+Harsh:
+- test/board/DirectionTest.java
+- test/board/DirectionPropertyTest.java
+- test/board/OccupantTest.java
+- test/npc/ghost/BlinkyTest.java
+- test/npc/ghost/ClydeTest.java
+- test/npc/ghost/InkyTest.java
+- test/npc/ghost/PinkyTest.java
+- test/npc/ghost/GhostTest.java
+- test/npc/ghost/GhostFactoryTest.java
+- test/LauncherSmokeTest.java
