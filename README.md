@@ -1,3 +1,11 @@
+# Testing Reports
+Testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
+
+- **src/test/resources/reports**
+
+**Note they are just static webpages so no stacktrace is available**
+
+
 # Src structure
 So there are 3 main folders
 
@@ -45,9 +53,3 @@ Harsh:
 - test/npc/ghost/GhostFactoryTest.java
 - test/LauncherSmokeTest.java
 
-# Testing Reports
-Testing reports such as the auto-generated gradle reports, and the Pitest mutation report can be found under 
-
-- **src/test/resources/reports**
-
-**Note they are just static webpages so no stacktrace is available**
